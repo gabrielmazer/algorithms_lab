@@ -2,7 +2,6 @@
 
 int main(){
     int N;
-
     scanf("%d", &N);
 
     int valores[2001] = {0};
@@ -15,7 +14,7 @@ int main(){
 
     for(int i = 0; i <= 2000; i++){
         if(valores[i] > 0){
-            printf("%d aparece %d vez(s)\n", i, valores[i]);
+            printf("%d aparece %d vez(es)\n", i, valores[i]);
         }
     }
 
